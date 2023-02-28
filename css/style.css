@@ -11,9 +11,9 @@ h1 {
 }
 
 td, th {
-  border: 2px solid;
+  border: 4px;
   border-color: lemonchiffon;
-  padding: 7px;
+  padding: 3px;
   font-family: ink free;
   }
   
@@ -39,10 +39,20 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: rgba(147, 112, 219, 0.7); 
+  background-color: rgba(147, 112, 219, 0.8); 
 }
 
 tr:nth-child(odd) {
-  background-color: rgba(106, 90, 205, 0.7);
+  background-color: rgba(106, 90, 205, 0.8);
 }
+
+#smallest-value {
+  border-style: dotted;
+}
+
+#largest-value {
+  border-style: solid;
+}
+
+
 
