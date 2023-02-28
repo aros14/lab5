@@ -33,7 +33,7 @@ th {
   color: lemonchiffon;
 }
 
-#row-title {
+.row-title {
   font-weight: bolder;
   color: lemonchiffon;
 }
@@ -46,11 +46,11 @@ tr:nth-child(odd) {
   background-color: rgba(106, 90, 205, 0.8);
 }
 
-#smallest-value {
+.smallest-value {
   border-style: dotted;
 }
 
-#largest-value {
+.largest-value {
   border-style: solid;
 }
 
