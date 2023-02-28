@@ -42,25 +42,10 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: mediumpurple; 
+  background-color: rgba(147, 112, 219, 0.7); 
 }
 
 tr:nth-child(odd) {
-  background-color: slateblue;
+  background-color: rgba(106, 90, 205, 0.7);
 }
 
-#smallest-value-blue {
-  background-color: #8679d7;
-}
-
-#smallest-value-purple {
-  background-color: #a78be2;
-}
-
-#largest-value-blue {
-  background-color: #5947c7;
-}
-
-#largest-value-purple {
-  background-color: #8158d5;
-}
