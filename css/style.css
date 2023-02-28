@@ -1,23 +1,22 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=2000");
+  background-image: url("https://t4.ftcdn.net/jpg/03/65/65/49/360_F_365654951_AymALSPU3ykFgk7QsUMNznWP8tgNimej.jpg");
 }
 
 h1 {
   font-family: ink free;
   font-style: oblique;
   text-align: center;
-  background: darkslateblue;
-  color: lavender;
+  background: lemonchiffon;
+  color: indigo;
 }
 
 td, th {
   border: 2px solid;
-  border-color: darkslateblue;
+  border-color: lemonchiffon;
   padding: 7px;
   font-family: ink free;
   }
   
-
 p {
   font-family: courier new;
 }
@@ -25,6 +24,7 @@ p {
 img {
   width: 300px;
   height: 160px;
+  border-radius: 25%;
 }
 
 table {
@@ -32,10 +32,19 @@ table {
 }
 
 th {
-  background-color: lavender;
+  background-color: indigo;
+  color: lemonchiffon;
 }
 
 #row-title {
-  background: lavenderblush;
   font-weight: bold;
+  color: lemonchiffon;
+}
+
+tr:nth-child(even) {
+  background-color: mediumpurple; 
+}
+
+tr:nth-child(odd) {
+  background-color: slateblue;
 }
