@@ -1,14 +1,22 @@
-td, th {
-  border: 1px solid;
-  padding: 7px;
-  font-family: courier new;
-  }
-  
+body {
+  background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=2000");
+}
+
 h1 {
   font-family: ink free;
+  font-style: oblique;
+  text-align: center;
   background: darkslateblue;
   color: lavender;
 }
+
+td, th {
+  border: 2px solid;
+  border-color: darkslateblue;
+  padding: 7px;
+  font-family: ink free;
+  }
+  
 
 p {
   font-family: courier new;
@@ -21,4 +29,13 @@ img {
 
 table {
   text-align: center;
+}
+
+th {
+  background-color: lavender;
+}
+
+#row-title {
+  background: lavenderblush;
+  font-weight: bold;
 }
