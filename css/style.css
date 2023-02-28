@@ -56,3 +56,11 @@ tr:nth-child(odd) {
 #smallest-value-purple {
   background-color: #a78be2;
 }
+
+#largest-value-blue {
+  background-color: #5947c7;
+}
+
+#largest-value-purple {
+  background-color: #8158d5;
+}
