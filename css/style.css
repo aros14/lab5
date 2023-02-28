@@ -1,10 +1,13 @@
 td, th {
   border: 1px solid;
+  padding: 7px;
   font-family: courier new;
   }
   
 h1 {
   font-family: ink free;
+  background: darkslateblue;
+  color: lavender;
 }
 
 p {
@@ -14,4 +17,8 @@ p {
 img {
   width: 300px;
   height: 160px;
+}
+
+table {
+  text-align: center;
 }
