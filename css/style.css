@@ -10,3 +10,8 @@ h1 {
 p {
   font-family: courier new;
 }
+
+img {
+  width: 300px;
+  height: 160px;
+}
